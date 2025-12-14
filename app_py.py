@@ -12,7 +12,7 @@ import pickle
 import pandas as pd
 
 # Load the trained model
-with open("/content/drive/MyDrive/INTERNSHIP/NANDHINI/exercise_calories_model.pkl", "rb") as file:
+with open("/content/drive/MyDrive/INTERNSHIP/NANDHINI/exercisecaloriesmodels/exercise_calories_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 st.title("🔥 Exercise Calories Predictor")
